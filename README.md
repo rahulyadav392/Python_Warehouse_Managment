@@ -27,3 +27,13 @@ This project aims to:
 | Reporting| Pandas, Excel/CSV export |
 
 ---
+
+## 🚀 Features
+
+### 👷 Warehouse Person View
+
+To Be Added
+
+### 👨‍💼 Admin View
+
+To Be Added
