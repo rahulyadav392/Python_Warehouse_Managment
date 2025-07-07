@@ -37,3 +37,22 @@ To Be Added
 ### 👨‍💼 Admin View
 
 To Be Added
+
+---
+
+## 🧱 Project Scope
+Let’s break the project into features:
+
+📦 Products table: product name, category, unit price, SKU, etc.
+
+🧍 Users/Roles: Admin and Warehouse Staff
+
+📥 Stock In: record of received goods
+
+📤 Stock Out: record of dispatched goods
+
+🔁 Returns: optional, but useful for real-world use
+
+📊 Live Inventory: compute current stock = stock in − stock out + returned
+
+📑 Reports/Export: Excel or CSV download for stock summary
