@@ -26,15 +26,6 @@ This project aims to:
 | Hosting  | Streamlit Cloud / Supabase |
 | Reporting| Pandas, Excel/CSV export |
 
--- 📦 SKU Table
-CREATE TABLE IF NOT EXISTS sku (
-    sku_code INT PRIMARY KEY,           -- Manually entered primary key
-    sku_name TEXT NOT NULL,              -- Product Name
-    unit_price NUMERIC(10, 2),           -- Upto 2 Decimal places
-    packing_size NUMERIC                 -- packing size (number)
-);
-
----
 
 ## 🚀 Features
 
@@ -64,3 +55,13 @@ Let’s break the project into features:
 📊 Live Inventory: compute current stock = stock in − stock out + returned
 
 📑 Reports/Export: Excel or CSV download for stock summary
+
+-- 📦 SKU Table
+CREATE TABLE IF NOT EXISTS sku (
+    sku_code INT PRIMARY KEY,           -- Manually entered primary key
+    sku_name TEXT NOT NULL,              -- Product Name
+    unit_price NUMERIC(10, 2),           -- Upto 2 Decimal places
+    packing_size NUMERIC                 -- packing size (number)
+);
+
+---
