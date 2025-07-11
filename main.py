@@ -19,7 +19,7 @@ def login():
 
     if st.button("Login"):
         response = supabase.table("users").select("*").eq("username", username).execute()
-	st.write("DEBUG - Supabase response:", response.data)
+	st.write("DEBUG - Supabase response:", response.data) # Debug delete after
 
         if response.data and len(response.data) == 1:
             user = response.data[0]
